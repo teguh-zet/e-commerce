@@ -1,4 +1,4 @@
-package com.teaz.e_commerce.entity;
+package com.teaz.ecommerce.entity;
 
 import java.io.Serializable;
 

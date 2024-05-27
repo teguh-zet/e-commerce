@@ -1,8 +1,8 @@
-package com.teaz.e_commerce.repository;
+package com.teaz.ecommerce.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.teaz.e_commerce.entity.Produk;
+import com.teaz.ecommerce.entity.Produk;
 
 public interface ProdukRepo extends JpaRepository<Produk,String>{
     

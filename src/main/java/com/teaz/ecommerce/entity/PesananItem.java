@@ -1,4 +1,4 @@
-package com.teaz.e_commerce.entity;
+package com.teaz.ecommerce.entity;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -9,18 +9,20 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 
-@Data
 @Entity
-public class Produk implements Serializable {
+@Data
+public class PesananItem implements Serializable{
+
     @Id
     private String id;
-    private String nama;
-    private String deskripsi;
-    private String gambar;
     @JoinColumn
     @ManyToOne
-    private Kategori kategori;
+    private Pesanan pesanan;
+    @JoinColumn
+    @ManyToOne
+    private Produk produk;
+    private String deskripsi;
+    private Double kuantitas;
     private BigDecimal harga;
-    private Double stok;
-
+    private BigDecimal jumlah;
 }

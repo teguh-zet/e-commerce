@@ -1,10 +1,10 @@
-package com.teaz.e_commerce.entity;
+package com.teaz.ecommerce.entity;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-import com.teaz.e_commerce.model.StatusPesanan;
+import com.teaz.ecommerce.model.StatusPesanan;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -17,7 +17,7 @@ import jakarta.persistence.TemporalType;
 import lombok.Data;
 
 @Data
-@Entity 
+@Entity
 public class Pesanan implements Serializable {
     @Id
     private String id;

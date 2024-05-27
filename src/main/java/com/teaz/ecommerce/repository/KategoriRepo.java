@@ -1,8 +1,8 @@
-package com.teaz.e_commerce.repository;
+package com.teaz.ecommerce.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.teaz.e_commerce.entity.Kategori;
+import com.teaz.ecommerce.entity.Kategori;
 
 public interface KategoriRepo extends JpaRepository<Kategori,String> {
     

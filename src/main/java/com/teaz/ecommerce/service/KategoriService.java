@@ -1,13 +1,13 @@
-package com.teaz.e_commerce.service;
+package com.teaz.ecommerce.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.teaz.e_commerce.entity.Kategori;
-import com.teaz.e_commerce.exception.ResourceNotFoundException;
-import com.teaz.e_commerce.repository.KategoriRepo;
+import com.teaz.ecommerce.entity.Kategori;
+import com.teaz.ecommerce.exception.ResourceNotFoundException;
+import com.teaz.ecommerce.repository.KategoriRepo;
 
 @Service
 public class KategoriService {

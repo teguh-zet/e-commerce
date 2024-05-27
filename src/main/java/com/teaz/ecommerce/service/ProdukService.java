@@ -1,13 +1,13 @@
-package com.teaz.e_commerce.service;
+package com.teaz.ecommerce.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.teaz.e_commerce.entity.Produk;
-import com.teaz.e_commerce.exception.ResourceNotFoundException;
-import com.teaz.e_commerce.repository.ProdukRepo;
+import com.teaz.ecommerce.entity.Produk;
+import com.teaz.ecommerce.exception.ResourceNotFoundException;
+import com.teaz.ecommerce.repository.ProdukRepo;
 
 @Service
 public class ProdukService {
