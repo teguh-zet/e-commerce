@@ -7,3 +7,4 @@ import com.teaz.ecommerce.entity.Kategori;
 public interface KategoriRepo extends JpaRepository<Kategori,String> {
     
 }
+

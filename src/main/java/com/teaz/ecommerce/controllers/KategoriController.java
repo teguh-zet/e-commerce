@@ -43,4 +43,5 @@ public class KategoriController {
     public void deleteById(@PathVariable("id") String id){
         kategoriService.deleteById(id);
     }
+    
 }
