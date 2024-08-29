@@ -17,11 +17,11 @@ import lombok.Data;
 public class Keranjang implements Serializable {
     @Id
     private String id;
-    @JoinColumn
     @ManyToOne
+    @JoinColumn(name = "produk_id",referencedColumnName = "id")
     private Produk produk;
-    @JoinColumn
     @ManyToOne
+    @JoinColumn(name = "pengguna_id",referencedColumnName = "id")
     private Pengguna pengguna;
     private double kuantitas;
     private BigDecimal harga;
